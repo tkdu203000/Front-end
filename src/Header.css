@@ -1,0 +1,35 @@
+
+.header{
+    display: grid;
+    grid-template-areas:
+        "header-log header-title"
+        "header-nav header-nav";
+
+    grid-template-columns: auto 1fr;
+    background-color: var(--color-header-bg);
+    color : var(--color-header-text);
+}
+
+
+.header__logo{
+    grid-area: header-log;
+    height : 100px;
+    width : 200px;
+    cursor: pointer;
+    
+   
+}
+
+.header__title{
+    grid-area: header-title;
+    cursor: pointer;
+    text-align : center;
+}
+
+.header__nav{
+    grid-area: header-nav;
+    
+    
+}
+
+

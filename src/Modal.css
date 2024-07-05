@@ -1,0 +1,45 @@
+
+.modal-dialog {
+  position: fixed;
+  top: 30%; 
+  left: 26%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-content {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.sub_status {
+  color: red;
+}
+
+.error-name {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: red;
+  padding-left: 10px;
+}
+
+.error-email {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: red;
+  padding-left: 10px;
+}
+
+.required {
+  color: red;
+  margin-left: 5px;
+}
+
+.required-info {
+  color: red;
+}
+
+.button-container {
+  margin-top: 20px; 
+}

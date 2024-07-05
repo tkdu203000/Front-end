@@ -1,0 +1,33 @@
+.cert__container {
+    text-align: left;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cert__logo {
+
+  width: 400px;
+  height: 200px;
+  margin: 0 auto; 
+}
+.cert__title {
+    border-bottom: 2px solid #000; 
+  }
+
+
+
+  .skip-link8 {
+    background: white;
+    color: blue;
+    left: 50%;
+    padding: 4px;
+    position: absolute;
+    transform: translateY(-1550%);
+}
+  
+.skip-link8:focus {
+    transform: translateY(-1250%);
+}
+
+
+

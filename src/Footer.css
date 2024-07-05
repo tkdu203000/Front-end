@@ -1,0 +1,38 @@
+
+  .global-footer__list {
+    list-style: none; 
+    padding: 0; 
+    display: flex; 
+    justify-content: space-around; 
+  }
+  
+ 
+  
+  .global-footer__link {
+    text-decoration: none;
+    
+    color: inherit; 
+    padding : 0.5 rem; 
+    font-size : 1.2rem;
+  }
+  
+  
+  .global-footer__link:hover {
+    text-decoration: underline;
+    /* background-color: lightblue;  */
+    color:red;
+  }
+
+
+  @media (max-width: 44rem) {
+    .global-footer__list {
+      flex-direction: column; 
+      align-items: center; 
+    }
+
+
+  }
+
+
+  
+  

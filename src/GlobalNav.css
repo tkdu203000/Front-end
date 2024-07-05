@@ -1,0 +1,49 @@
+nav ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.0rem;
+
+}
+
+nav ul li a:hover {
+    color: white;
+    cursor: pointer;
+    color: red;
+
+
+}
+
+
+.global-nav:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+.global-nav {
+   
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+    .global-nav:hover .global-nav__submenu {
+        visibility: visible;
+        opacity: 1;
+        transition: visibility 3s, opacity 3s;
+    }
+}

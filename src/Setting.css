@@ -1,0 +1,34 @@
+.skip-link4 {
+    background: white;
+    color: blue;
+    left: 50%;
+    padding: 4px;
+    position: absolute;
+    transform: translateY(-750%);
+}
+
+.skip-link4:focus {
+    transform: translateY(-650%);
+}
+
+/* styles.css */
+
+
+
+
+
+.settings {
+    margin: 20px;
+}
+
+/* Light Theme */
+.light {
+    background-color: white;
+    color: black;
+}
+
+/* green Theme */
+.dark {
+    background-color: black;
+    color: red;
+}

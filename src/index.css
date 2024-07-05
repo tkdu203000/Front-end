@@ -1,0 +1,36 @@
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-page-bg: #f0f0f0;
+  --color-page-text: black;
+  --color-header-bg : #2c3e50;
+  --color-header-text: #ffffff;
+}
+
+body {
+  margin : 0;
+
+  background-color: var(--color-page-bg);
+  color: var(--color-page-text);
+
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* main {
+  min-height: 100vh;
+} */
+
+input, select, textarea {
+  font: inherit;
+}
+
+footer {
+  background-color: var(--color-header-bg);
+  color: var(--color-header-text);
+  
+  text-align: center;
+}

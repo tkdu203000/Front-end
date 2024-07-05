@@ -1,0 +1,55 @@
+
+.card__pic {
+    width: 100px;
+    height: 100px;
+    margin-top : 10px;
+    margin-left : 10px;
+    
+   
+}
+
+.card__pic2 {
+    width: 100px;
+    height: 100px;
+    margin-top : 10px;
+    margin-left : 10px;
+}
+
+
+.course {
+    display: flex;
+    border-radius: 1px;
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+.course2 {
+    display: flex;
+    border-radius: 1px;
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+.card__content {
+    flex: 1;
+   padding-left : 10px;
+}
+
+
+.skip-link3 {
+    background: white;
+    color: blue;
+    left: 50%;
+    padding: 4px;
+    position: absolute;
+    transform: translateY(-1600%);
+}
+  
+.skip-link3:focus {
+    transform: translateY(-1100%);
+}
+
+
+

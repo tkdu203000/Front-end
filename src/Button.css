@@ -1,0 +1,24 @@
+
+.button {
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: inherit;
+}
+
+.button.link {
+    text-decoration: underline;
+    color: blue;
+}
+
+.button.transparent {
+    background-color: transparent;
+}
+
+.button.margin {
+    margin-left: 0;
+}
